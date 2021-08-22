@@ -1,0 +1,278 @@
+@media(max-width:1680px) {
+
+}
+
+@media(max-width:1440px) {
+
+}
+
+@media(max-width: 1400px){
+	.container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#app-solution .black-title-sm{
+		min-height: 60px;
+	}
+}
+@media(max-width:1280px) {
+	.white-heading-lg,
+	.white-heading-md,
+	.black-heading-lg,
+	.black-heading-md {
+		font-size: 30px;
+	}
+	.black-title-sm {
+		font-size: 16px;
+	}
+	.black-heading-sm{
+		font-size: 20px;
+	}
+	.btn-org {
+		font-size: 18px;
+	}
+	.card-wrap .black-title-sm {
+		font-size: 16px;
+		min-height: 75px;
+	}
+	.white-title-lg, .black-title-lg {
+		font-size: 18px;
+	}
+	.black-title-xs {
+		font-size: 14px;
+	}
+	.circle-wrap {
+		padding: 40px 15px 40px 15px;
+		width: 227px;
+		height: 227px;
+	}
+	.btn-sm {
+		padding: 12px 15px;
+		font-size: 16px;
+	}
+	.eco-card-wrap .white-title-lg {
+		min-height: 80px;
+	}
+}
+
+@media(max-width: 1024px){
+	.white-title-lg{
+		font-size: 16px;
+	}
+	.card-wrap {
+		padding: 30px 15px;
+	}
+	.btn-org img {
+		width: 40px;
+	}
+}
+
+@media(min-width: 991px){
+	.d-none-web{
+		display: none;
+	}
+}
+
+@media(min-width:767px) and (max-width: 991px){
+	#app-work ul:before {
+		background-size: 50% !important;
+	}
+}
+
+@media(max-width:991px) {
+	.d-none-990{
+		display: none;
+	}
+	br{
+		display: none;
+	}
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.site-header .navbar-brand img {
+		width: 30px;
+	}
+	.site-header{
+		background-color: #022842;
+		width: 100%;
+	}
+	.site-header .navbar{
+		padding: 15px;
+	}
+	.site-header .navbar-toggler-icon {
+		background-color: #fff;
+		height: 2px;
+		margin: 3px 0;
+	}
+	.site-header .navbar-toggler {
+		display: grid;
+	}
+	.site-header .navbar-toggler-icon.icon-one {
+		width: 24px;
+	}
+	.site-header .navbar-toggler-icon.icon-two {
+		width: 18px;
+	}
+	.whatsap-wrap img {
+		width: 30px;
+		margin-right: 10px;
+	}
+	.banner-content {
+		width: 100%;
+		text-align: center;
+	}
+	.banner-img-mob {
+		margin: auto;
+		display: block;
+		text-align: center;
+	}
+	.banner-img-mob figure img {
+		width: 250px;
+		padding-top: 30px;
+	}
+	.white-heading-lg, .white-heading-md, .black-heading-lg, .black-heading-md {
+		font-size: 26px;
+	}
+	.black-title-lg {
+		font-size: 16px;
+	}
+	.btn-org {
+		font-size: 16px;
+	}
+	.btn-lg {
+		padding: 8px 15px 8px 8px;
+	}
+	.btn-org img {
+		margin: 0 10px 0 0;
+	}
+	#global-fuel {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		text-align: center;
+	}
+	.do-wrap span {
+		font-size: 14px;
+	}
+	.global-img-mob {
+		padding: 30px 0;
+	}
+	#app-solution {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.card-wrap figure img {
+		width: 69px;
+	}
+	.card-wrap {
+		margin: 10px 0;
+	}
+	#kick-start {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		text-align: center;
+	}
+	.white-heading-md {
+		font-size: 24px;
+	}
+	.flex-dir{
+		flex-direction: column-reverse;
+	}
+	#app-work {
+		padding: 35px 0 35px 0;
+	}
+	.path:before {
+		display: none
+	}
+	.circle-wrap {
+		border: none;
+		background-color: transparent;
+	}
+	.circle-wrap:hover {
+		background-color: transparent;
+		border: transparent;
+	}
+	#app-work ul {
+		display: block;
+	}
+	#app-work ul:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+    	bottom: 0;
+		background-image: url(../images/path-mob.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	}
+	#app-work ul li {
+		margin: 0 10px;
+		position: relative;
+		height: 200px;
+	}
+	.circle-one .circle-wrap {
+		position: absolute;
+		right: 0;
+		top: -60px;
+	}
+	.circle-two .circle-wrap {
+		position: absolute;
+		left: 0;
+		top: -30px;
+	}
+	
+	.circle-three .circle-wrap {
+		position: absolute;
+		right: 0;
+		top: 10px;
+	}
+	
+	.circle-four .circle-wrap {
+		position: absolute;
+		left: 0;
+		top: 30px;
+	}
+	#inspired {
+		padding-top: 35px;
+	}
+	#inspired b {
+		color: #f56c41;
+	}
+	#app-dev {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.eco-card-wrap .white-title-lg {
+		min-height: 60px;
+	}
+	.eco-card-wrap {
+		padding: 50px 15px 20px 15px;
+		border-radius: 5px;
+	}
+	.eco-card-wrap figure img {
+		width: 78px;
+	}
+	.footer-heading {
+		font-size: 16px;
+		padding-top: 30px;
+	}
+	.p-tb-63 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer-links ul li a {
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 320px){
+	.white-heading-lg {
+		font-size: 20px;
+	}
+	.white-title-lg{
+		font-size: 14px;
+	}
+}
